@@ -4,6 +4,12 @@
 
 ### Patch Changes
 
+- Reverted the `createApp` TypeScript type to match the one before version `0.1.21`, as it was an accidental breaking change.
+
+## 0.1.21
+
+### Patch Changes
+
 - 0b1de52732: Migrated to using new `ErrorApiError` and `ErrorApiErrorContext` names.
 - ecd1fcb80a: Deprecated the `BackstagePluginWithAnyOutput` type.
 - 32bfbafb0f: Start exporting and marking several types as public to address errors in the API report.
