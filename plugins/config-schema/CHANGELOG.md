@@ -1,5 +1,11 @@
 # @backstage/plugin-config-schema
 
+## 0.1.14
+
+### Patch Changes
+
+- 9f21236a29: Fixed a missing `await` when throwing server side errors
+
 ## 0.1.13
 
 ### Patch Changes
